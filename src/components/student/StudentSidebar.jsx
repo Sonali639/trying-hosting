@@ -57,7 +57,7 @@ const StudentSidebar = ({ setActiveMenu }) => {
   return (
     <div
       ref={sidebarRef}
-      className={`bg-[url('/path/to/marble-texture.png')] bg-cover bg-center bg-no-repeat bg-opacity-70 text-white h-screen flex flex-col p-4 ${
+      className={` bg-cover bg-center bg-no-repeat bg-opacity-70 text-white h-screen flex flex-col p-4 ${
         isOpen ? "w-[250px]" : "w-20"
       } transition-all duration-300`}
       style={{ backgroundColor: "rgba(255, 255, 255, 0.1)" }}
